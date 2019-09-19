@@ -1,9 +1,6 @@
 
 /**
  * A test program for the Time class
- *
- * @author (your name)
- * @version (a version number or a date)
  */
 public class TimeTest
 {
@@ -23,10 +20,10 @@ public class TimeTest
         
         Time time2;
         time2 = myTime.elapsedTime (new Time (5, 45, 0));
-        System.out.println(time2);             // should be 00:30
+        System.out.println(time2);             // should be 00:30 elapsed
         time2 = myTime.elapsedTime (new Time (10, 30, 0));
-        System.out.println(time2);             // should be 05:15
+        System.out.println(time2);             // should be 05:15 elapsed
         time2 = myTime.elapsedTime (new Time (12, 00, 0));
-        System.out.println(time2);             // should be 06:45
+        System.out.println(time2);             // should be 06:45 elapsed
     }
 }
